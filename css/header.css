@@ -4,9 +4,8 @@
 
 .header__container {
   display: grid;
-  grid-template-columns: 149px 227px 777px 147px 203px;
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
   align-items: center;
-
 }
 
 .header__title-shop {
@@ -29,6 +28,12 @@
   color: #3670C7;
 }
 
+.header__burger {
+  position: relative;
+  left: 55px;
+  top: 15px;
+}
+
 .header__menu-button {
   display: grid;
   width: 151px;
@@ -45,20 +50,10 @@
   font-weight: 400;
 }
 
-.header__search-field {
-  display: grid;
-}
-
 .header__nav-bar {
   display: grid;
   grid-template-columns: 40px 20px;
   
-}
-
-.header__boorger {
-  position: relative;
-  left: 55px;
-  top: 15px;
 }
 
 .header__search-border {
@@ -72,41 +67,52 @@
   font-weight: 700;
   line-height: 130%;
   padding-left: 40px;
+  border:none;
+  color:#8F8F8F;
+}
+
+.header__search-button {
+  position: relative;
+  right: 102px;
+  width: 100px;
+  height: 54px;
+  border-radius: 50px;
 }
 /* ========================================= */
 .header__icons {
   display: grid;
   grid-template-columns: 69px 90px 82px;
-  justify-content: center;
 }
 
-.svigi {
-  justify-self: center; 
+.header__human {
+  justify-self: center;
+  position: relative;
+  left: 15px;
 }
 
-.union {
+.header__union {
   position: relative;
 }
 
-.korzina {
+.header__bascet {
   position: absolute;
   left: 33px;
   top: 3px;
 }
 
-.kryg {
+.header__circle {
   position: absolute;
   left: 51px;
 }
 
-.cifra {
+.header__number {
   position: absolute;
   left: 51px;
 }
-.name {
+.header__cart-sign {
   position: relative;
-  top: 36px;
-  left: 13px;
+  top: 40px;
+  left: 15px;
 }
 
 .header__elements {
