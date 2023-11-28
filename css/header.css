@@ -1,0 +1,115 @@
+.header {
+  padding: 27px 0;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 149px 227px 777px 147px 203px;
+  align-items: center;
+
+}
+
+.header__title-shop {
+  display: grid;
+  max-width: 190px;
+  grid-template-columns: 83px 95px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  
+}
+
+.header__shop {
+  color: #2D2D2D;
+}
+
+.header__online {
+  color: #3670C7;
+}
+
+.header__menu-button {
+  display: grid;
+  width: 151px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background-image: url('../img/button-background.svg');
+  color: aliceblue;
+  text-align: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header__search-field {
+  display: grid;
+}
+
+.header__nav-bar {
+  display: grid;
+  grid-template-columns: 40px 20px;
+  
+}
+
+.header__boorger {
+  position: relative;
+  left: 55px;
+  top: 15px;
+}
+
+.header__search-border {
+  border-radius: 30px;
+  background: #EFEFEF;
+  width: 757px;
+  height: 54px;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding-left: 40px;
+}
+/* ========================================= */
+.header__icons {
+  display: grid;
+  grid-template-columns: 69px 90px 82px;
+  justify-content: center;
+}
+
+.svigi {
+  justify-self: center; 
+}
+
+.union {
+  position: relative;
+}
+
+.korzina {
+  position: absolute;
+  left: 33px;
+  top: 3px;
+}
+
+.kryg {
+  position: absolute;
+  left: 51px;
+}
+
+.cifra {
+  position: absolute;
+  left: 51px;
+}
+.name {
+  position: relative;
+  top: 36px;
+  left: 13px;
+}
+
+.header__elements {
+  display: grid;
+  align-items: center;
+}
