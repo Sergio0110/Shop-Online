@@ -1,6 +1,10 @@
 .cards {
+
+}
+
+.cards__united-box {
   display: grid;
-  grid-template-columns: repeat(3 , 1fr);
+  grid-template-columns: repeat(4 , 1fr);
   grid-gap: 10px; 
 }
 
@@ -59,7 +63,7 @@
 .card__circle {
   position: absolute;
   left: 137px;
-  bottom: 20px;
+  bottom: 211px;
 }
 
 .cards__discount-procent {
