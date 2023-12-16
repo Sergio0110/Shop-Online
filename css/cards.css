@@ -74,7 +74,7 @@
 }
 
 .main-banner__sale {
-  color: var(--1, #FFF);
+  color: var#FFF;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
