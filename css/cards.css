@@ -1,128 +1,82 @@
-.cards {
 
-}
 
-.cards__united-box {
-  display: grid;
-  grid-template-columns: repeat(4 , 1fr);
-  grid-gap: 10px; 
-}
-
-.cards__blocks {
+.main-banner__book {
   position: relative;
+  background-image: url('../img/book-image.jpg');
+  width: 245px;
+  height: 245px;
+  border-radius: 20px;
 }
 
-.cards__title-book {
+.main-banner-style {
   position: absolute;
   color: var(--1, #FFF);
-  font-family: Lato;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  left: 20px;
   top: 97px;
-}
-
-.cards__hyphen {
-  position: absolute;
-  color: var(--1, #FFF);
-  font-family: Lato;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%;
-  left: 144px;
-  top: 108px;
-}
-
-.cards__best-gift {
-  position: absolute;
-  color: var(--1, #FFF);
-  font-family: Lato;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 130%;
   left: 20px;
-  bottom: 20px;
 }
 
-.cards__discount-time {
+.main-banner__hyphen {
   position: absolute;
   color: var(--1, #FFF);
-  font-family: Lato;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  left: 14px;
-  top: 78px;
-}
-
-.card__circle {
-  position: absolute;
+  top: 106px;
   left: 137px;
-  bottom: 211px;
 }
 
-.cards__discount-procent {
+.main-banner__present {
   position: absolute;
   color: var(--1, #FFF);
-  font-family: Lato;
   font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%;
-  left: 148px;
-  top: 164px;
-}
-
-.card__circle-40 {
-  position: absolute;
-  left: 20px;
-  top: 20px;
-}
-
-.cards__discount-procent40 {
-  position: absolute;
-  color: var(--1, #FFF);
-  font-family: Lato;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%;
-  left: 29px;
-  top: 44px;
-}
-
-.cards__sescond-pair {
-  position: absolute;
-  color: var(--1, #FFF);
-  font-family: Lato;
-  font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%;
-  left: 43px;
-  top: 376px;
+  line-height: 130%;
+  bottom: 20px;
+  left: 20px;
+  }
+
+.main-banner__clock {
+  position: relative;
+  background-image: url('../img/discount-time.jpg');
+  background-repeat: no-repeat;
+  width: 245px;
+  height: 245px;
+  border-radius: 20px;
 }
 
-.cards__present {
+.main-banner__time-of-sale {
   position: absolute;
   color: var(--1, #FFF);
-  font-family: Lato;
-  font-size: 56px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%;
-  left: 43px;
-  bottom: 48px;
+  line-height: 130%;
+  top: 78px;
+  left: 14px;
 }
 
-.cards__blue-rectangle {
+.main-banner__clock ::before {
+  content: " ";
   position: absolute;
-  max-width: 510px;
-  left: 20px;
-  bottom: 22px;
+  top: 245%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  width: 88px;
+  height: 88px;
+  background-color: #FFBD13;; 
+  border-radius: 50%;
+}
+
+.main-banner__sale {
+  color: var(--1, #FFF);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
 }
