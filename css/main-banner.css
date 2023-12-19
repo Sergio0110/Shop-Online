@@ -23,6 +23,7 @@
 
 .main-banner__subtitle {
   position: absolute;
+  color: var(--1, #FFF);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;

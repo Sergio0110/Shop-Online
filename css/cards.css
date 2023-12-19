@@ -61,11 +61,11 @@
   left: 14px;
 }
 
-.main-banner__clock ::before {
+.main-banner__circle {
   content: " ";
   position: absolute;
-  top: 245%;
-  left: 84%;
+  top: 185px;
+  left: 178px;
   transform: translate(-50%, -50%);
   width: 88px;
   height: 88px;
@@ -74,9 +74,65 @@
 }
 
 .main-banner__sale {
-  color: var#FFF;
+  position: absolute;
+  color: #FFF;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
+  top: 22px;
+  left: 19px;
+}
+
+.main-banner__redcross {
+  position: relative;
+  background-image: url('../img/red-cross.jpg');
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 245px;
+  border-radius: 20px;
+}
+
+.main-banner__circlecross {
+  content: " ";
+  position: absolute;
+  top: 69px;
+  left: 70px;
+  transform: translate(-50%, -50%);
+  width: 88px;
+  height: 88px;
+  background-color: #FFBD13;; 
+  border-radius: 50%;
+}
+
+.main-banner__salecross {
+  position: absolute;
+  color: #FFF;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  top: 22px;
+  left: 19px;
+}
+
+.main-banner__second-pair {
+  position: relative;
+  background-image: url('../img/second-pair.jpg');
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.main-banner__border-banner {
+  content: " ";
+  position: absolute;
+  top: 301px;
+  left: 269px;
+  transform: translate(-50%, -50%);
+  width: 510px;
+  height: 178.004px;
+  background-color: #38C0EB; 
+  border-radius: 20px;
 }
