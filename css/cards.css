@@ -128,11 +128,197 @@
 .main-banner__border-banner {
   content: " ";
   position: absolute;
-  top: 301px;
-  left: 269px;
-  transform: translate(-50%, -50%);
+  bottom: 22px;
+  left: 20px;
   width: 510px;
   height: 178.004px;
   background-color: #38C0EB; 
   border-radius: 20px;
 }
+
+.main-banner__second-pair-present {
+  position: absolute;
+  color: var(--1, #FFF);
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  top: 26px;
+  left: 23px;
+}
+.main-banner__second-pair-to-present {
+  position: absolute;
+  color: var(--1, #FFF);
+  font-family: Lato;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  bottom: 26px;
+  left: 23px;
+}
+
+.main-banner__newyear {
+  position: relative;
+  background-image: url('../img/new-year.jpg');
+  background-repeat: no-repeat;
+  width: 1160px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.main-banner__white-board {
+  position: absolute;
+  width: 643px;
+  height: 115px;
+  border-radius: 20px;
+  background: var(--1, #FFF);
+  left: 50px;
+  top: 385px;
+}
+
+.main-banner__newyear-decoration {
+  position: absolute;
+  color: #F91155;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  left: 42px;
+  top: 32px;
+  }
+
+  .main-banner__new-year-idea  {
+    position: relative;
+    background-image: url('../img/img-pressents.jpg');
+    width: 550px;
+    height: 245px;
+    border-radius: 20px;
+  }
+
+.main-banner__idea-newyear-presents {
+  position: absolute;
+  color: var(--1, #FFF);
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  left: 30px;
+  top: 104px;
+}
+
+.main-banner__descember-sale {
+  position: relative;
+  background-image: url('../img/profit-dec.jpg');
+  border-radius: 20px;
+  width: 550px;
+  height: 245px;
+}
+
+.main-banner__december-profit {
+  position: absolute;
+  color: var(--1, #FFF);
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  left: 30px;
+  bottom: 30px;
+}
+
+.main-banner__circle-dec{
+  content: " ";
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  background-color: #FFBD13;; 
+  border-radius: 50%;
+  right: 20px;
+  bottom: 20px;
+}
+
+.main-banner__sale-dec{
+  position: absolute;
+  color: var(--1, #FFF);
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  left: 9px;
+  top: 24px;
+}
+
+.main-banner__red-dress {
+  position: relative;
+  background-image: url('../img/red-dress.jpg');
+  border-radius: 20px;
+  width: 245px;
+  height: 550px;
+}
+
+.main-banner__circledress {
+  content: " ";
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  background-color: #FFBD13;; 
+  border-radius: 50%;
+  right: 20px;
+  bottom: 20px;
+}
+
+.main-banner__saledress {
+  position: absolute;
+  color: var(--1, #FFF);
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  left: 9px;
+  top: 24px;
+}
+
+.main-banner__chemical-house {
+  position: relative;
+  background-image: url('../img/house-chemical.jpg');
+  border-radius: 20px;
+  width: 245px;
+  height: 245px;
+  
+}
+.main-banner__cemical-text {
+  position: absolute;
+  color: var(--1, #FFF);
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  left: 20px;
+  bottom: 20px;
+  }
+
+  .main-banner__circle-chemical {
+    content: " ";
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background-color: #FFBD13;; 
+    border-radius: 50%;
+    left: 20px;
+    top: 20px;
+  }
+
+  .main-banner__christmas-decoration {
+    background-image: url('../img/christmas-decoraton.jpg');
+    width: 245px;
+    height: 245px;
+    border-radius: 20px;
+  }
