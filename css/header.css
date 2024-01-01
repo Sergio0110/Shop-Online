@@ -95,42 +95,57 @@
 /* ========================================= */
 .header__icons {
   display: flex;
-  justify-content: space-between;
+  position: relative;
+  align-items: flex-end;
+  gap: 70px;
+}
+
+.header__profile {
+  display: flex;
+  align-items: center;
 }
 
 .header__human {
-  justify-self: center;
-  position: relative;
+  position: absolute;
+  top: 4px;
   left: 15px;
+}
+
+.header__span-text {
+
 }
 
 .header__union {
   position: relative;
+  display: flex;
 }
 
 .header__bascet {
   position: absolute;
-  left: 33px;
-  top: 3px;
-}
-
-.header__circle {
-  position: absolute;
-  left: 51px;
-}
-
-.header__number {
-  position: absolute;
-  left: 51px;
-}
-.header__cart-sign {
-  position: relative;
-  top: 40px;
+  top: -14px;
   left: 15px;
 }
 
-.header__elements {
-  display: grid;
-  align-items: center;
+/* .header__circle {
+
+} */
+
+.header__number {
+  position: relative;
+  top: -20px;
+  left: 37px;
 }
+.header__cart-sign {
+
+}
+
+.header__elements {
+  position: relative;
+}
+
+.header__hard {
+  position: relative;
+  left: 22px;
+}
+
 
