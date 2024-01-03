@@ -48,6 +48,7 @@
   width: 245px;
   height: 245px;
   border-radius: 20px;
+
 }
 
 .main-banner__time-of-sale {
@@ -91,6 +92,8 @@
   width: 550px;
   height: 245px;
   border-radius: 20px;
+  /* grid-column: 2/3;
+  grid-row: 4/5; */
 }
 
 .main-banner__circlecross {

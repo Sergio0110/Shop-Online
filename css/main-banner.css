@@ -1,6 +1,13 @@
 
 
-.main-banner__block {
+.main-banner {
+  display: grid;
+  grid-template-columns: repeat(3, 245px);
+  grid-template-rows: repeat(3, 245px);
+  gap: 60px;
+}
+
+.main-banner__big-banner {
   position: relative;
   background-image: url('../img/main-banner.jpg');
   width: 1770px;
