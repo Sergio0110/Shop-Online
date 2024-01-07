@@ -2,8 +2,8 @@
 
 .main-banner {
   display: grid;
-  grid-template-columns: repeat(3, 245px);
-  grid-template-rows: repeat(3, 245px);
+  grid-template-columns: repeat(6, 245px);
+  grid-template-rows: repeat(6, 245px);
   gap: 60px;
 }
 

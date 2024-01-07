@@ -92,8 +92,13 @@
   width: 550px;
   height: 245px;
   border-radius: 20px;
-  /* grid-column: 2/3;
-  grid-row: 4/5; */
+}
+
+.big {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .main-banner__circlecross {
