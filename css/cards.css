@@ -94,12 +94,58 @@
   border-radius: 20px;
 }
 
-.big {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+
+/* дополнительные классы для позиционирования карточек по грид сетке*/
+
+.big-banner {
+  margin-top: 70px;
 }
+
+.book {
+  grid-row-start: 3;
+}
+
+.clock { 
+  grid-row-start: 3;
+}
+
+.red-cross {
+  grid-row-start: 4;
+}
+
+.second-pair {
+  grid-row-start: 3;
+}
+
+.idea {
+  grid-row-start: 3;
+  grid-column-start: 5;
+}
+
+.dec-sale {
+  grid-row-start: 4;
+  grid-column-start: 5;
+}
+
+.ny-decoration {
+  grid-row-start: 5;
+}
+
+.red-dress {
+  grid-column-start: 5;
+  grid-row-start: 5;
+}
+
+.chemical-house {
+  grid-column-start: 6;
+  grid-row-start: 5;
+}
+
+.christmas-decoration {
+  grid-row-start: 6;
+  grid-column-start: 6;
+}
+/*=========================*/
 
 .main-banner__circlecross {
   content: " ";
@@ -167,7 +213,7 @@
   left: 23px;
 }
 
-.main-banner__newyear {
+.main-banner__new-year {
   position: relative;
   background-image: url('../img/new-year.jpg');
   background-repeat: no-repeat;
