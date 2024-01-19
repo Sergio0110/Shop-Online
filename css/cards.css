@@ -1,12 +1,32 @@
 
+.main-banner__cards-style {
+  position: relative;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.main-banner__cards-style:hover {
+  background-color: red; 
+  opacity: 0.6;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+.main-banner__big-banner {
+  position: relative;
+  background-image: url('../img/main-banner.jpg');
+  border-radius: 20px;
+  grid-column: 1 / 7;
+  grid-row: 1 / 3;
+}
 
 .main-banner__book {
-  position: relative;
   background-image: url('../img/book-image.jpg');
-  width: 245px;
-  height: 245px;
-  border-radius: 20px;
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
+
 
 .main-banner-style {
   position: absolute;
@@ -42,13 +62,10 @@
   }
 
 .main-banner__clock {
-  position: relative;
   background-image: url('../img/discount-time.jpg');
-  background-repeat: no-repeat;
-  width: 245px;
-  height: 245px;
   border-radius: 20px;
-
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 
 .main-banner__time-of-sale {
@@ -85,98 +102,10 @@
   left: 19px;
 }
 
-.main-banner__redcross {
-  position: relative;
-  background-image: url('../img/red-cross.jpg');
-  background-repeat: no-repeat;
-  width: 550px;
-  height: 245px;
-  border-radius: 20px;
-}
-
-
-/* дополнительные классы для позиционирования карточек по грид сетке*/
-
-.big-banner {
-  margin-top: 70px;
-}
-
-.book {
-  grid-row-start: 3;
-}
-
-.clock { 
-  grid-row-start: 3;
-}
-
-.red-cross {
-  grid-row-start: 4;
-}
-
-.second-pair {
-  grid-row-start: 3;
-}
-
-.idea {
-  grid-row-start: 3;
-  grid-column-start: 5;
-}
-
-.dec-sale {
-  grid-row-start: 4;
-  grid-column-start: 5;
-}
-
-.ny-decoration {
-  grid-row-start: 5;
-}
-
-.red-dress {
-  grid-column-start: 5;
-  grid-row-start: 5;
-}
-
-.chemical-house {
-  grid-column-start: 6;
-  grid-row-start: 5;
-}
-
-.christmas-decoration {
-  grid-row-start: 6;
-  grid-column-start: 6;
-}
-/*=========================*/
-
-.main-banner__circlecross {
-  content: " ";
-  position: absolute;
-  top: 69px;
-  left: 70px;
-  transform: translate(-50%, -50%);
-  width: 88px;
-  height: 88px;
-  background-color: #FFBD13;; 
-  border-radius: 50%;
-}
-
-.main-banner__salecross {
-  position: absolute;
-  color: #FFF;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%;
-  top: 22px;
-  left: 19px;
-}
-
 .main-banner__second-pair {
-  position: relative;
   background-image: url('../img/second-pair.jpg');
-  background-repeat: no-repeat;
-  width: 550px;
-  height: 550px;
-  border-radius: 20px;
+  grid-column: 3/5;
+  grid-row: 3/5;
 }
 
 .main-banner__border-banner {
@@ -213,64 +142,58 @@
   left: 23px;
 }
 
-.main-banner__new-year {
-  position: relative;
-  background-image: url('../img/new-year.jpg');
-  background-repeat: no-repeat;
-  width: 1160px;
-  height: 550px;
-  border-radius: 20px;
+.main-banner__new-year-idea  {
+  background-image: url('../img/img-pressents.jpg');
+  grid-column: 5/7;
+  grid-row: 3/4;
 }
-
-.main-banner__white-board {
-  position: absolute;
-  width: 643px;
-  height: 115px;
-  border-radius: 20px;
-  background: var(--1, #FFF);
-  left: 50px;
-  top: 385px;
-}
-
-.main-banner__newyear-decoration {
-  position: absolute;
-  color: #F91155;
-  font-family: Lato;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-  text-transform: uppercase;
-  left: 42px;
-  top: 32px;
-  }
-
-  .main-banner__new-year-idea  {
-    position: relative;
-    background-image: url('../img/img-pressents.jpg');
-    width: 550px;
-    height: 245px;
-    border-radius: 20px;
-  }
 
 .main-banner__idea-newyear-presents {
+position: absolute;
+color: var(--1, #FFF);
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+left: 30px;
+top: 104px;
+}
+
+.main-banner__redcross {
+  background-image: url('../img/red-cross.jpg');
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.main-banner__circlecross {
+  content: " ";
   position: absolute;
-  color: var(--1, #FFF);
-  font-family: Lato;
-  font-size: 40px;
+  top: 69px;
+  left: 70px;
+  transform: translate(-50%, -50%);
+  width: 88px;
+  height: 88px;
+  background-color: #FFBD13;; 
+  border-radius: 50%;
+}
+
+.main-banner__salecross {
+  position: absolute;
+  color: #FFF;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  left: 30px;
-  top: 104px;
+  top: 22px;
+  left: 19px;
 }
 
 .main-banner__descember-sale {
-  position: relative;
   background-image: url('../img/profit-dec.jpg');
-  border-radius: 20px;
-  width: 550px;
-  height: 245px;
+  grid-column: 5/7;
+  grid-row: 4/5;
+
 }
 
 .main-banner__december-profit {
@@ -308,12 +231,40 @@
   top: 24px;
 }
 
-.main-banner__red-dress {
-  position: relative;
-  background-image: url('../img/red-dress.jpg');
+.main-banner__new-year {
+  background-image: url('../img/new-year.jpg');
+  grid-column: 1/5;
+  grid-row: 5/7;
+}
+
+.main-banner__white-board {
+  position: absolute;
+  width: 643px;
+  height: 115px;
   border-radius: 20px;
-  width: 245px;
-  height: 550px;
+  background: var(--1, #FFF);
+  left: 50px;
+  top: 385px;
+}
+
+.main-banner__newyear-decoration {
+  position: absolute;
+  color: #F91155;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  left: 42px;
+  top: 32px;
+  }
+
+
+.main-banner__red-dress {
+  background-image: url('../img/red-dress.jpg');
+  grid-column: 5/6;
+  grid-row: 5/7;
 }
 
 .main-banner__circledress {
@@ -340,12 +291,9 @@
 }
 
 .main-banner__chemical-house {
-  position: relative;
   background-image: url('../img/house-chemical.jpg');
-  border-radius: 20px;
-  width: 245px;
-  height: 245px;
-  
+  grid-column: 6/7;
+  grid-row: 5/6;
 }
 .main-banner__cemical-text {
   position: absolute;
@@ -359,20 +307,19 @@
   bottom: 20px;
   }
 
-  .main-banner__circle-chemical {
-    content: " ";
-    position: absolute;
-    width: 88px;
-    height: 88px;
-    background-color: #FFBD13;; 
-    border-radius: 50%;
-    left: 20px;
-    top: 20px;
-  }
+.main-banner__circle-chemical {
+  content: " ";
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  background-color: #FFBD13;; 
+  border-radius: 50%;
+  left: 20px;
+  top: 20px;
+}
 
   .main-banner__christmas-decoration {
     background-image: url('../img/christmas-decoraton.jpg');
-    width: 245px;
-    height: 245px;
-    border-radius: 20px;
+    grid-column: 6/7;
+    grid-row: 6/7;
   }

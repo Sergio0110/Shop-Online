@@ -1,19 +1,18 @@
 
 
 .main-banner {
+  padding-top: 63px;
+  padding-bottom: 189px;
+}
+
+.main-banner__container {
   display: grid;
-  grid-template-columns: repeat(6, 245px);
-  grid-template-rows: repeat(6, 245px);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 210px) repeat(4, 245px);
   gap: 60px;
 }
 
-.main-banner__big-banner {
-  position: relative;
-  background-image: url('../img/main-banner.jpg');
-  width: 1770px;
-  height: 480px;
-  border-radius: 20px;
-}
+
 
 .main-banner__title {
   position: absolute;
