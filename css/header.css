@@ -33,7 +33,6 @@
   border-radius: 10px;
   height: 54px;
   width: 151px;
-  left: 10px;
   padding-left: 61px;
   background-color: rgba(54, 112, 199, 1);
   color: aliceblue;
@@ -68,7 +67,10 @@
 }
 
 .header__my-form {
+  position: relative;
+  height: 100%;
   display: flex;
+  width: 100%;
 }
 
 
@@ -88,9 +90,12 @@
 }
 
 .header__search-button {
-  position: relative;
-  right: 88px;
-  width: 126px;
+  position: absolute;
+  background-color: #3670C7;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 30px;
   border-radius: 50px;
 }
 /* ========================================= */

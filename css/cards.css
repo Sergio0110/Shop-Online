@@ -82,8 +82,8 @@
 .main-banner__circle {
   content: " ";
   position: absolute;
-  top: 185px;
-  left: 178px;
+  right: -21px;
+  bottom: -13px;
   transform: translate(-50%, -50%);
   width: 88px;
   height: 88px;
@@ -113,22 +113,19 @@
   position: absolute;
   bottom: 22px;
   left: 20px;
-  width: 510px;
-  height: 178.004px;
+  max-width: 510px;
   background-color: #38C0EB; 
   border-radius: 20px;
+  padding: 26px 23px;
 }
 
 .main-banner__second-pair-present {
-  position: absolute;
   color: var(--1, #FFF);
   font-family: Lato;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  top: 26px;
-  left: 23px;
 }
 .main-banner__second-pair-to-present {
   position: absolute;
@@ -138,8 +135,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  bottom: 26px;
-  left: 23px;
+
+  /* left: 23px; */
 }
 
 .main-banner__new-year-idea  {
