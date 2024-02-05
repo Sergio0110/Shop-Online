@@ -10,10 +10,13 @@
   gap: 97px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .header__container {
-
-  }
+    grid-template-rows: 61px 61px;
+    gap: 34px;
+    grid-column: 2/5;
+    grid-row: 2/3;
+      }
 }
 
 .header__shop-online {
@@ -50,6 +53,14 @@
   font-family: "Lato";
 }
 
+@media (max-width:1200px) {
+  .header__menu-button {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+}
+
 .header__menu-button::after {
   content: " ";
   position: absolute;
@@ -77,6 +88,13 @@
   height: 100%;
   display: flex;
   width: 100%;
+}
+
+@media (max-width:1200px) {
+  .header__my-form {
+    grid-column: 3/5;
+    grid-row: 2/3;
+  }
 }
 
 
@@ -109,6 +127,14 @@
   position: relative;
   align-items: flex-end;
   gap: 70px;
+  height: 100%;
+}
+
+@media (max-width:1200px) {
+  .header__icons {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
 }
 
 .header__profile {
