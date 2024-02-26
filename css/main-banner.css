@@ -5,19 +5,26 @@
   padding-bottom: 189px;
 }
 
-
 .main-banner__container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 210px) repeat(4, 230px);
-  gap: 60px;
+  gap: 50px;
 }
 
 @media (max-width: 1024px) {
   .main-banner__container {
     grid-template-rows: repeat(2, 157px) repeat(6, 217px);
-    grid-template-columns: repeat(4, 215px);
+    grid-template-columns: repeat(4, 1fr);
     gap: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-banner__container {
+    grid-template-rows: repeat(2, 140px) repeat(6, 140px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
 }
 
@@ -39,7 +46,7 @@
 
 @media(max-width:768px) {
   .main-banner__big-banner {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

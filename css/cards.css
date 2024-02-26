@@ -19,6 +19,10 @@
   grid-row: 3/4;
 }
 
+@media(max-width:768px) {
+
+}
+
 
 .main-banner-style {
   position: absolute;
@@ -31,9 +35,24 @@
   left: 20px;
 }
 
+@media(max-width:768px) {
+  .main-banner-style {
+    font-size: 26px;
+  }
+  .main-banner__hyphen {
+    font-size: 26px;
+  }
+
+}
+@media(max-width:768px) {
+  .main-banner-style {
+    font-size: 26px;
+  }
+}
+
 @media (max-width: 1024px) {
   .main-banner-style {
-    font-size: 30px;
+    font-size: 26px;
     left: 9px;
     top: 123px;
   }
@@ -66,6 +85,12 @@
   line-height: 130%;
   bottom: 20px;
   left: 20px;
+  }
+
+  @media(max-width:768px) {
+    .main-banner__present {
+      font-size: 20px;
+    }
   }
 
   @media (max-width: 1024px) {
@@ -112,10 +137,21 @@
   border-radius: 50%;
 }
 
+
+
 @media (max-width: 1024px) {
   .main-banner__circle {
     bottom: -32px;
     right: -32px;
+  }
+}
+
+@media(max-width:768px) {
+  .main-banner__circle {
+    width: 49px;
+    height: 49px;
+    bottom: -8px;
+    right: -9px;
   }
 }
 
@@ -129,6 +165,15 @@
   top: 22px;
   left: 19px;
 }
+
+@media(max-width:768px) {
+  .main-banner__sale {
+    top: 16px;
+    left:12px;
+    font-size: 16px;
+  }
+}
+
 
 .main-banner__second-pair {
   background-image: url('../img/second-pair.jpg');
@@ -154,6 +199,22 @@
   padding: 26px 23px;
 }
 
+@media(max-width:1200px) {
+  .main-banner__border-banner {
+    bottom: 12px;
+    left: 10px;
+    max-width: 259px;
+  }
+}
+
+@media(max-width:970px) {
+  .main-banner__border-banner {
+    bottom: 12px;
+    left: 10px;
+    max-width: 293px;
+  }
+}
+
 .main-banner__second-pair-present {
   color: var(--1, #FFF);
   font-family: Lato;
@@ -171,6 +232,7 @@
     font-size: 40px;
   }
 }
+
 .main-banner__second-pair-to-present {
   color: var(--1, #FFF);
   font-family: Lato;
