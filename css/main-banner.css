@@ -73,33 +73,30 @@
 }
 
 .main-banner__subtitle {
-  position: absolute;
   color: var(--1, #FFF);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  top: 336px;
-  left: 823px;
 }
 
 @media (max-width: 1250px) {
   .main-banner__subtitle {
-    left: 471px;
+
   }
 }
 
 @media (max-width: 1024px) {
   .main-banner__subtitle {
-    top: 195px;
-    left: 409px;
+
   }
 }
 
 .main-banner__boxdate {
   position: absolute;
-  left: 649px;
+  right: 49px;
   bottom: 40px;
+  /*прописать текст по центру*/
 }
 
 @media (max-width: 1250px) {

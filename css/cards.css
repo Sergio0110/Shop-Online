@@ -252,6 +252,7 @@
   background-image: url('../img/img-pressents.jpg');
   grid-column: 5/7;
   grid-row: 3/4;
+  bcpo
 }
 
 @media (max-width: 1024px) {
