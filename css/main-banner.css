@@ -15,7 +15,7 @@
 @media (max-width: 1024px) {
   .main-banner__container {
     grid-template-rows: repeat(2, 157px) repeat(6, 217px);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(157px, 1fr));
     gap: 22px;
   }
 }
@@ -73,43 +73,33 @@
 }
 
 .main-banner__subtitle {
+  display: flex;
   color: var(--1, #FFF);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-}
-
-@media (max-width: 1250px) {
-  .main-banner__subtitle {
-
-  }
-}
-
-@media (max-width: 1024px) {
-  .main-banner__subtitle {
-
-  }
+  justify-content: center;
 }
 
 .main-banner__boxdate {
   position: absolute;
-  right: 49px;
-  bottom: 40px;
-  /*прописать текст по центру*/
+  bottom: -6px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+  
 }
 
 @media (max-width: 1250px) {
   .main-banner__boxdate {
-    left: 314px;
-    bottom: 36px;
+    bottom: -6px;
   }
 }
 
 @media (max-width: 1024px) {
   .main-banner__boxdate {
-    left: 314px;
-    bottom: 36px;
+    bottom: -6px;
   }
 }
 
